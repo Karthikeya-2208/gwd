@@ -4,13 +4,13 @@ import java.net.URI;
 public class GWD {
     public static void main(String[] args) {
         // Define these variables
-        String name = "";
-        String rollNo = "";
-        String branch = "";
-        String githubRepoLink = "";
+        String name = "karthikeya";
+        String rollNo = "100523729044";
+        String branch = "aiml";
+        String githubRepoLink = "https://github.com/Karthikeya-2208/gwd/edit/main/GWD.java";
 
         try {
-            String title = "Roll No: " + rollNo + " - Name: " + name + " - Branch: " + branch;
+            String title = "Roll no: " + rollNo + " - Name: " + name + " - Branch: " + branch;
 
             URI uri = new URI(githubRepoLink);
 
